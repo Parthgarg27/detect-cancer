@@ -131,7 +131,7 @@ if submit_button:
     input_df = pd.DataFrame([input_data])
     input_scaled = scaler.transform(input_df)
     prediction = selected_model.predict(input_scaled)[0]
-    diagnosis = 'Malignant (M)' if prediction == 1 else 'Benign (B)'
+    diagnosis = 'Malignant (M) (Cancerous)' if prediction == 1 else 'Benign (B) (Non-Cancerous)'
 
     st.markdown(f"""
     <div style='background-color: #f9f9f9; padding: 20px; border-radius: 10px; text-align: center;'>
