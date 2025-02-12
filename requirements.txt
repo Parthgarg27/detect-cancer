@@ -2,10 +2,3 @@ streamlit
 pandas
 numpy
 scikit-learn
-sklearn.model_selection.train_test_split
-sklearn.preprocessing.StandardScaler
-sklearn.neighbors.KNeighborsClassifier
-sklearn.tree.DecisionTreeClassifier
-sklearn.linear_model.LogisticRegression
-sklearn.naive_bayes.GaussianNB
-sklearn.metrics.accuracy_score
